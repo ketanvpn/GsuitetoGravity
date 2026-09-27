@@ -518,10 +518,13 @@ async function loginAccount(browser, cookie, account, index, total) {
   }
 
   const totalTime = ((Date.now() - t0) / 1000).toFixed(1);
-  console.log(`\n========================================`);
-  console.log(`Selesai dalam ${totalTime}s`);
-  console.log(`Sukses: ${successCount} | Gagal: ${failCount}`);
-  console.log(`========================================`);
+  console.log(`\n====================================================================`);
+  console.log(`📊 RINGKASAN PEMANENAN AKUN (9ROUTER / ANTIGRAVITY):`);
+  console.log(`  • Total Akun Diperiksa : ${accounts.length}`);
+  console.log(`  • Berhasil Diimpor     : ${successCount}`);
+  console.log(`  • Gagal / Kendala      : ${failCount}`);
+  console.log(`  • Total Durasi         : ${totalTime}s`);
+  console.log(`====================================================================`);
 
   await browser.close();
   console.log('\n[Browser] ✓ Ditutup');
