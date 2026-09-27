@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Gsuiteto9router
+# ⚡ GsuitetoGravity
 
 **Automated Bulk Google Workspace Onboarding for 9Router AntiGravity Provider**
 
@@ -73,8 +73,8 @@ Tool ini dirancang agar dapat berjalan mulus di **VPS Linux (Headless)** tanpa m
 
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/ketanvpn/Gsuiteto9router.git
-cd Gsuiteto9router
+git clone https://github.com/ketanvpn/GsuitetoGravity.git
+cd GsuitetoGravity
 ```
 
 ### 2. Pasang Dependensi

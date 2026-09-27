@@ -1,7 +1,7 @@
 {
-  "name": "gsuite-to-9router",
+  "name": "gsuite-to-gravity",
   "version": "2.0.0",
-  "description": "Bulk add & manage Google accounts on 9Router Antigravity provider via API",
+  "description": "Bulk add & manage Google Workspace accounts on 9Router Antigravity (Gemini) provider via API",
   "main": "bot.js",
   "scripts": {
     "add": "node bot.js",

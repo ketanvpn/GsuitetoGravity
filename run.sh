@@ -3,7 +3,7 @@
 # Runner: Add Mass Google (GSuite) ke 9Router Antigravity (AG)
 # ==============================================================================
 
-PROJECT_DIR="/root/projects/Gsuiteto9router"
+PROJECT_DIR="/root/projects/GsuitetoGravity"
 cd "$PROJECT_DIR" || exit 1
 
 # Cek file akun.txt
